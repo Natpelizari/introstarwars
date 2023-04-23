@@ -2,9 +2,10 @@
   "name": "introstarwars",
   "version": "1.0.0",
   "description": "desenvolvimento intro starwars",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
   },
   "repository": {
     "type": "git",
